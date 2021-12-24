@@ -1,0 +1,39 @@
+.comments__container {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.comment__info {
+  border: 2px solid rgb(219, 219, 219);
+}
+
+.comment__header {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.comment__info > div {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  background-color: rgb(236, 236, 236);
+  padding: 1rem 1.5rem;
+}
+
+.comment__info > div > img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.comment__info > div > p {
+  font-size: 14px;
+  margin-right: 0.5rem;
+}
+
+.comment__info > div > p {
+  color: rgb(41, 170, 41);
+}
+
+.comment__info > div > p:last-child {
+  color: rgb(201, 201, 201);
+}

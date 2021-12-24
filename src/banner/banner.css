@@ -1,0 +1,14 @@
+.banner {
+  height: 20vh;
+  background-color: rgb(67, 151, 67);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner > div > p,
+.banner > div > h1 {
+  margin: 1rem;
+  color: white;
+}

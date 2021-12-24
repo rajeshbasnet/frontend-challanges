@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+.logo > h3 > a {
+  color: rgb(46, 124, 46);
+}
+
+.navlinks {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+}
+
+.menu-links > .links {
+  margin: 0 2rem;
+}

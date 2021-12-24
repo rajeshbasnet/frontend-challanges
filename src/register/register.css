@@ -1,0 +1,23 @@
+.register__section {
+  width: 40%;
+  margin: 2rem auto;
+}
+
+.input__field {
+  margin: 0.5rem 0 !important;
+}
+
+.btn__container {
+  margin-top: 1rem !important;
+  display: flex;
+  justify-content: right;
+}
+
+.homepage__link {
+  text-align: center;
+  line-height: 2;
+}
+
+.homepage__link > a {
+  color: green;
+}
