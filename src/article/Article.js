@@ -3,16 +3,25 @@ import { AiFillHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 function Article(props) {
-  const { slug, author, title, description, tagList, favoritesCount } = props;
+  console.log(props);
+  const {
+    slug,
+    author: { username, image },
+    title,
+    description,
+    createdAt,
+    tagList,
+    favoritesCount,
+  } = props;
 
   return (
     <div className="global__feed__container">
       <div className="user__info__container">
         <div className="user__info">
-          <img src="/demo-avatar.png" alt="" />
+          <img src={image} alt="" />
           <div>
-            <p>{author.username}</p>
-            <p>Wed Nov 24 2021</p>
+            <p>{username}</p>
+            <p>{createdAt}</p>
           </div>
         </div>
 
